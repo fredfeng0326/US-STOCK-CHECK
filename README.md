@@ -5,6 +5,16 @@
 `stock-mcp` is an **MCP stock tracking tool** built with **Spring AI**.  
 The project exposes stock data capabilities through MCP (Model Context Protocol), allowing agents or upper-layer applications to call stock query interfaces in a unified way.
 
+### 1.1 database preview
+
+![Database Preview](src/images/image1.png)
+
+### 1.2 Use Cursor to connect and use MCP features
+
+![Cursor MCP Usage 1](src/images/image2.png)
+
+![Cursor MCP Usage 2](src/images/image3.png)
+
 ## 2. Project Structure
 
 ```text
