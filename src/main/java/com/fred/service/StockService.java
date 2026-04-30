@@ -5,18 +5,8 @@ import com.fred.entity.USStockRss;
 
 import java.util.List;
 
-/**
- * @ClassName RssService
- * @Version 1.0
- * @Description RssService
- **/
 public interface StockService {
 
-    /**
-     * @Description: 根据股票代码查询股票数据
-     * @Author 风间影月
-     * @param stockCode
-     */
     public List<USStockRss> queryStock(String stockCode);
 
     /**
